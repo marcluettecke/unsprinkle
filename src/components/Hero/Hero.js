@@ -4,8 +4,9 @@ import styled from 'styled-components/macro';
 const Hero = () => {
   return (
     <Wrapper>
-      <HeroImage src="/images/hero-img.jpg" />
-      <Swoop src="/swoop.svg" />
+      <HeroImage src="/images/hero-img.jpg"
+                   alt="Hero image on top of page showing cat" />
+      <Swoop src="/swoop.svg" alt="Dunno" />
     </Wrapper>
   );
 };
